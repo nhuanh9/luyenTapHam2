@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let arr = [3,6,5,3,8,1,2];
+        function checkArr(arr){
+            let a = prompt("Nhap vao ki tu");
+            let count = 0;
+            for (let i =0; i< arr.length; i++) {
+                if (a == arr[i]){
+                    count++;
+                }
+            }
+            if (count!==0){
+                alert("Ki tự xuất hiện "+count+" lần");
+            } else {
+                alert("Không có kí tự trong mảng");
+            }
+        }
+        checkArr(arr);
+    </script>
+</body>
+</html>

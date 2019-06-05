@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let obj = new Object;
+    obj.num1 = 5;
+    obj.num2 = 10;
+    function swap(obj) {
+        let temp = obj.num1;
+        obj.num1 = obj.num2;
+        obj.num2 = temp;
+    }
+    swap(obj);
+    alert(obj.num1+","+obj.num2);
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<SCRIPT>
+    let num1 = prompt("Nhập vào số thứ 1:");
+    let num2 = prompt("Nhập vào số thứ 2:");
+    let num3 = prompt("Nhập vào số thứ 3:");
+
+    function isMin() {
+        let min = num1 < num2 ? num1 : num2;
+        min = min < num3 ? min : num3;
+        alert(min);
+    }
+
+    isMin();
+</SCRIPT>
+</body>
+</html>
